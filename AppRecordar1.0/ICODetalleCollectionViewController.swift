@@ -11,12 +11,31 @@ import UIKit
 private let reuseIdentifier = "Cell"
 
 class ICODetalleCollectionViewController: UICollectionViewController {
+    
+    //MARK: - Variables locales globales
+    var listaIconos = [[String : String]]()
+    var icono = [String]()
+    var headerTitleString : String?
+    var selectedTask : Int?
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        
+        listaIconos.append(["icon": "img_icono_compra" , CONSTANTES.KEY_TITULO : "Compra"])
+        listaIconos.append(["icon": "img_icono_economia" , CONSTANTES.KEY_TITULO : "Economia"])
+        listaIconos.append(["icon": "img_icono_amigos" , CONSTANTES.KEY_TITULO : "Amigos"])
+        listaIconos.append(["icon": "img_icono_amor" , CONSTANTES.KEY_TITULO : "Amor"])
+        listaIconos.append(["icon": "img_icono_archivos" , CONSTANTES.KEY_TITULO : "Archivos"])
+        listaIconos.append(["icon": "img_icono_deportes" , CONSTANTES.KEY_TITULO : "Deportes"])
+        listaIconos.append(["icon": "img_icono_fechas" , CONSTANTES.KEY_TITULO : "Calendario"])
+        listaIconos.append(["icon": "img_icono_ideas" , CONSTANTES.KEY_TITULO : "Ideas"])
+        listaIconos.append(["icon": "img_icono_lugares" , CONSTANTES.KEY_TITULO : "Lugares"])
+        listaIconos.append(["icon": "img_icono_musica" , CONSTANTES.KEY_TITULO : "Musica"])
+        listaIconos.append(["icon": "img_icono_vacaciones" , CONSTANTES.KEY_TITULO : "Vacaciones"])
+        listaIconos.append(["icon": "img_icono_webs" , CONSTANTES.KEY_TITULO : "Webs"])
+        
 
         // Register cell classes
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)

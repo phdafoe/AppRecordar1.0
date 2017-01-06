@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 class APITaskManager{
     //contiene un objeto del tipo APITaskManager - con static se consigue que se ejecute una unica vez
     static let sharedInstance = APITaskManager()
