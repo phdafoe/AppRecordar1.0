@@ -53,7 +53,7 @@
                                 <connections>
                                     <outlet property="myImagenIconTarea" destination="rk7-Ql-Nqx" id="Zye-CK-Fer"/>
                                     <outlet property="myTextoTarea" destination="Bgx-Do-XAc" id="u3n-9R-nlM"/>
-                                    <segue destination="BRg-PU-8qf" kind="show" id="OLB-Fx-6dy"/>
+                                    <segue destination="BRg-PU-8qf" kind="show" identifier="segueDetalle" id="OLB-Fx-6dy"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
