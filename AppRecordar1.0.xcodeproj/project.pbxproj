@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635569101E1FA1380042B00C /* ICOTaskCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355690F1E1FA1380042B00C /* ICOTaskCustomCell.swift */; };
+		635569121E1FA16B0042B00C /* ICOIconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635569111E1FA16B0042B00C /* ICOIconCollectionViewCell.swift */; };
+		635569141E1FA1880042B00C /* ICOHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635569131E1FA1880042B00C /* ICOHeaderCollectionReusableView.swift */; };
+		635569161E1FA2530042B00C /* ICODetalleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635569151E1FA2530042B00C /* ICODetalleCollectionViewController.swift */; };
+		635569191E1FAAD70042B00C /* APITaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635569181E1FAAD70042B00C /* APITaskManager.swift */; };
+		6355691B1E1FAC520042B00C /* APIUTils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6355691A1E1FAC520042B00C /* APIUTils.swift */; };
 		6392AE2D1E19275A00C04CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392AE2C1E19275A00C04CC7 /* AppDelegate.swift */; };
-		6392AE2F1E19275A00C04CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392AE2E1E19275A00C04CC7 /* ViewController.swift */; };
 		6392AE321E19275A00C04CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6392AE301E19275A00C04CC7 /* Main.storyboard */; };
 		6392AE341E19275A00C04CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6392AE331E19275A00C04CC7 /* Assets.xcassets */; };
 		6392AE371E19275A00C04CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6392AE351E19275A00C04CC7 /* LaunchScreen.storyboard */; };
+		6392AE3F1E1AD26E00C04CC7 /* ICOListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392AE3E1E1AD26E00C04CC7 /* ICOListaTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6355690F1E1FA1380042B00C /* ICOTaskCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOTaskCustomCell.swift; sourceTree = "<group>"; };
+		635569111E1FA16B0042B00C /* ICOIconCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOIconCollectionViewCell.swift; sourceTree = "<group>"; };
+		635569131E1FA1880042B00C /* ICOHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		635569151E1FA2530042B00C /* ICODetalleCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICODetalleCollectionViewController.swift; sourceTree = "<group>"; };
+		635569181E1FAAD70042B00C /* APITaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APITaskManager.swift; sourceTree = "<group>"; };
+		6355691A1E1FAC520042B00C /* APIUTils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIUTils.swift; sourceTree = "<group>"; };
 		6392AE291E19275A00C04CC7 /* AppRecordar1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppRecordar1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6392AE2C1E19275A00C04CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6392AE2E1E19275A00C04CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6392AE311E19275A00C04CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6392AE331E19275A00C04CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6392AE361E19275A00C04CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6392AE381E19275A00C04CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6392AE3E1E1AD26E00C04CC7 /* ICOListaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICOListaTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		635569171E1FAABA0042B00C /* VIEW_CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				6392AE3E1E1AD26E00C04CC7 /* ICOListaTableViewController.swift */,
+				635569151E1FA2530042B00C /* ICODetalleCollectionViewController.swift */,
+				635569131E1FA1880042B00C /* ICOHeaderCollectionReusableView.swift */,
+				6355690F1E1FA1380042B00C /* ICOTaskCustomCell.swift */,
+				635569111E1FA16B0042B00C /* ICOIconCollectionViewCell.swift */,
+			);
+			name = VIEW_CONTROLLERS;
+			sourceTree = "<group>";
+		};
 		6392AE201E19275A00C04CC7 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +79,9 @@
 			isa = PBXGroup;
 			children = (
 				6392AE2C1E19275A00C04CC7 /* AppDelegate.swift */,
-				6392AE2E1E19275A00C04CC7 /* ViewController.swift */,
+				635569181E1FAAD70042B00C /* APITaskManager.swift */,
+				6355691A1E1FAC520042B00C /* APIUTils.swift */,
+				635569171E1FAABA0042B00C /* VIEW_CONTROLLERS */,
 				6392AE301E19275A00C04CC7 /* Main.storyboard */,
 				6392AE331E19275A00C04CC7 /* Assets.xcassets */,
 				6392AE351E19275A00C04CC7 /* LaunchScreen.storyboard */,
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6392AE2F1E19275A00C04CC7 /* ViewController.swift in Sources */,
 				6392AE2D1E19275A00C04CC7 /* AppDelegate.swift in Sources */,
+				635569121E1FA16B0042B00C /* ICOIconCollectionViewCell.swift in Sources */,
+				635569141E1FA1880042B00C /* ICOHeaderCollectionReusableView.swift in Sources */,
+				635569191E1FAAD70042B00C /* APITaskManager.swift in Sources */,
+				6355691B1E1FAC520042B00C /* APIUTils.swift in Sources */,
+				6392AE3F1E1AD26E00C04CC7 /* ICOListaTableViewController.swift in Sources */,
+				635569161E1FA2530042B00C /* ICODetalleCollectionViewController.swift in Sources */,
+				635569101E1FA1380042B00C /* ICOTaskCustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +332,7 @@
 				6392AE3D1E19275A00C04CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
